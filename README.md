@@ -1,4 +1,4 @@
-# Recommendation Systems with MovieLens User Rating Data.
+# Engineering a Recommendation System with MovieLens User Rating Data.
 
 Data Science cohort 062220
 
@@ -73,7 +73,7 @@ xx put in ARHR formula here, adjust placement of table following relevant text. 
 
 **Cumulative Hit Rank (cHR)**
 
-Another variation of hit rate is cHR. It means that we throw away hits of predicted ratings below some threshold. The idea is we shouldnt get credit for recommending items to a user that they wouldn't actually enjoy. In the example below, if we had a cutoff of 3 stars we throw away the hits for the second and fourth items in these test results and hour hit rate metric wouldnt count them at all.
+Another variation of hit rate is cHR. It means that we throw away hits of predicted ratings below some threshold. The idea is we shouldnt get credit for recommending items to a user that they wouldn't actually enjoy. In the example below, if we had a cutoff of 3 stars we throw away the hits for the second and fourth items in these test results and our hit rate metric wouldnt count them at all.
 
 |Hit Rank|Predicted Rating|
 |--------|----------------|
